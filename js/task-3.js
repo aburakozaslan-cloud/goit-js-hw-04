@@ -8,7 +8,7 @@ const profile = {
     this.username = newName;
   },
   updatePlayTime(hours) {
-    this.playtime += hours;
+    this.playTime += hours;
   },
   getInfo() {
     return `${this.username} has ${this.playTime} active hours!`;
